@@ -89,7 +89,7 @@ def clean_code(df1):
 #-------------------------------- Inicio da estrutura logica do código ------------------------------------------------------------------------------------------#
 
 # CARREGANDO BANCO DE DADOS
-df = pd.read_csv('Dataset\\train.csv')
+df = pd.read_csv('Dataset/train.csv')
 
 # EXECUTANDO LIMPEZA DO BANCO DE DADOS
 df1 = clean_code(df)
